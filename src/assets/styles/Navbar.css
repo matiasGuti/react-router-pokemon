@@ -1,0 +1,32 @@
+header {
+  height: 80px;
+  padding: 16px;
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  height: 100%;
+  padding-left: 40px;
+}
+
+header .navigation-container {
+  padding-right: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+header .nav {
+  color: white;
+  text-shadow: 2px 3px 5px black;
+  font-size: 27px;
+  text-decoration: none;
+}
+
+header .active{
+  color:#FF6B57;
+}
